@@ -24,7 +24,7 @@ const Sidebar = () => {
   }, [])
 
   const projectData = () => {
-    axios.get('http://localhost:9000/projects/')
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/projects/`)
       .then((res) => {
         setProjects(res.data)
       })

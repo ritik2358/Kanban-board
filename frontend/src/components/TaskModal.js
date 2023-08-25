@@ -19,7 +19,7 @@ const TaskModal = ({ isOpen, setIsOpen, id }) => {
 
     useEffect(() => {
         if (isOpen) {
-            axios.get(`http://localhost:9000/project/${id.projectId}/task/${id.id}`)
+            axios.get(`${process.env.REACT_APP_BACKEND_URL}/project/${id.projectId}/task/${id.id}`)
                 .then((data) => {
                     setTaskData({ ...data.data[0].task[0] });
                     // console.log(taskData);
