@@ -19,13 +19,14 @@ app.use((req, res, next) => {
     next();
 })
 
+app.get("/", (req, res) => {
+    res.json("Welcome");
+})
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.send("Welcome");
-})
+
 
 
 app.use(api)
