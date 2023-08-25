@@ -2,6 +2,12 @@
 
 This is a Kanban board-inspired task management application that allows users to efficiently manage tasks across different stages of completion. The application provides a seamless and intuitive interface for users to organize their tasks and keep track of their progress.
 
+## Screenshots
+
+<img width="948" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/aee75913-628c-4c6e-9779-4711675ab109">
+
+<img width="960" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/0117ce68-ffec-43ca-a170-67e7fd87eaa3">
+
 ## Features
 
 - **Homepage**: The homepage displays all tasks, categorized into different status groups: To Do, Doing, and Done.
@@ -34,12 +40,6 @@ This is a Kanban board-inspired task management application that allows users to
 3. Set up the database connection in the `config.js` file.
 4. Run the application using the command `npm start` or `node app.js`.
 5. Access the application by navigating to `http://localhost:3000` in your web browser.
-
-## Screenshots
-
-<img width="948" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/aee75913-628c-4c6e-9779-4711675ab109">
-
-<img width="960" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/0117ce68-ffec-43ca-a170-67e7fd87eaa3">
 
 
 ## Live Demo
