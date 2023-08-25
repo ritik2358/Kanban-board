@@ -1,84 +1,68 @@
-# Kanban Board Task Management using MERN stack (Mongodb, Express.js, React.js and Node.js) 
+# Kanban Board Task Management Application
+
+This is a Kanban board-inspired task management application that allows users to efficiently manage tasks across different stages of completion. The application provides a seamless and intuitive interface for users to organize their tasks and keep track of their progress.
+
+## Features
+
+- **Homepage**: The homepage displays all tasks, categorized into different status groups: To Do, Doing, and Done.
+
+- **Task Card**: Each task is presented as a card, showing the task title and description for quick reference.
+
+- **Add Task**: Users can easily create a new task by filling out a form that prompts them for the task title and description.
+
+- **Edit Task**: The application enables users to edit the title and description of an existing task, allowing for updates as needed.
+
+- **Delete Task**: Users have the option to permanently remove a task, providing a comprehensive task management experience.
+
+- **Task Status**: With a user-friendly drag-and-drop functionality, tasks can be effortlessly moved between the To Do, Doing, and Done categories to reflect their current status.
+
+- **Responsive Design**: The application is fully responsive and functional on mobile devices, ensuring a consistent user experience across different screen sizes.
+
+## Technologies Used
+
+- Front-end: **ReactJS, Tailwind CSS**
+- Back-end: **Node.js, Express.js**
+- Database: **MongoDB**
+- Version Control: **Git, Github**
+- Deployment: **Vercel**
 
 
+## Installation and Usage
 
-## Setup instruction
+1. Clone this repository to your local machine.
+2. Install the required dependencies using the package manager of your choice.
+3. Set up the database connection in the `config.js` file.
+4. Run the application using the command `npm start` or `node app.js`.
+5. Access the application by navigating to `http://localhost:3000` in your web browser.
 
-- Step 1: install dependencies/node_module
-  - Go to /backend directory for backend setup and run `npm install`
+## Screenshots
 
-  - Go to /frontend directory for frontend setup and run `npm install`
+<img width="948" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/aee75913-628c-4c6e-9779-4711675ab109">
 
-- Step 2: Configure mongodb connection url
-Go to backend directory and create .env file 
-and put into `MONGODB_URI=your-mongodb-connection-url`
-
-- Step 3:  Change server port and cors origin (Optional)
-by default your server running in port `http://localhost:9000` and cors origin/frontend url is`http://localhost:3000` , you can change port and cors, simply put this key into your .env
-`SERVER_PORT=your-port` and` CORS_ORIGIN=-your-client-origin`
-
-- Step 4: Run project
-in your backend `npm run dev` for start node server and `npm run start` for frontend
-
-## Packages used
-- Tailwindcss
-- Headlessui
-- React router
-- Axios
-- UUID
-- Joi
-- Cors
-- Dotenv
+<img width="960" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/0117ce68-ffec-43ca-a170-67e7fd87eaa3">
 
 
-## Project Screenshot
-#### Todo board quick preview
-![React-App](https://user-images.githubusercontent.com/96901635/191009449-0083044c-c961-45cd-9da4-7184289b9573.gif)
-#### Todo board
-![image](https://user-images.githubusercontent.com/96901635/191006996-0c185cdd-5834-47c6-8927-2e7d539866a7.png)
-#### Task insert
-![image](https://user-images.githubusercontent.com/96901635/191007092-eb25cfc8-c056-4be2-a898-00ad29d65785.png)
-#### Edit task
-![image](https://user-images.githubusercontent.com/96901635/191008217-6a0175e6-d5a9-4d98-8951-4a528d2bef99.png)
-#### Edit project
-![image](https://user-images.githubusercontent.com/96901635/191008043-8c9113a1-700f-42bb-9f87-e68db159c4dc.png)
+## Live Demo
 
+Check out the live demo of the application at [Live Demo Link](https://kanban-board-ritik2358.vercel.app/).
 
+## API Endpoints
 
+- GET /projects: Get a list of all projects with minimal details.
+- GET /project/:id: Get details of a specific project.
+- POST /project: Create a new project.
+- PUT /project/:id: Update details of a project.
+- DELETE /project/:id: Delete a project.
+- POST /project/:id/task: Create a new task within a project.
+- GET /project/:id/task/:taskId: Get details of a specific task within a project.
+- PUT /project/:id/task/:taskId: Update details of a task within a project.
+- DELETE /project/:id/task/:taskId: Delete a task within a project.
+- PUT /project/:id/todo: Update the order and stage of tasks within a project for task management.
 
-## Available Scripts
+## Contributions
 
-In the project directory, you can run:
+Contributions to this project are welcome! Feel free to fork the repository and submit pull requests to suggest improvements or fix any issues.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to reach out to us with any questions or feedback. We hope you find this Kanban board task management application useful for your task organization needs!
