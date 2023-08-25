@@ -23,6 +23,9 @@ app.use((req, res, next) => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("Welcome");
+})
 
 
 app.use(api)
