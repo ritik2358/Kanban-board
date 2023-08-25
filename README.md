@@ -1,4 +1,4 @@
-# Project management system using MERN stack (Mongodb, Express.js, React.js and Node.js) 
+# Kanban Board Task Management using MERN stack (Mongodb, Express.js, React.js and Node.js) 
 
 
 
