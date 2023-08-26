@@ -2,11 +2,10 @@
 
 This is a Kanban board-inspired task management application that allows users to efficiently manage tasks across different stages of completion. The application provides a seamless and intuitive interface for users to organize their tasks and keep track of their progress.
 
-## Screenshots
 
-<img width="948" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/aee75913-628c-4c6e-9779-4711675ab109">
+https://github.com/ritik2358/Kanban-board/assets/98156555/588a3653-4137-49ae-9a73-a7165806c6e7
 
-<img width="960" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/0117ce68-ffec-43ca-a170-67e7fd87eaa3">
+
 
 ## Features
 
@@ -23,6 +22,14 @@ This is a Kanban board-inspired task management application that allows users to
 - **Task Status**: With a user-friendly drag-and-drop functionality, tasks can be effortlessly moved between the To Do, Doing, and Done categories to reflect their current status.
 
 - **Responsive Design**: The application is fully responsive and functional on mobile devices, ensuring a consistent user experience across different screen sizes.
+
+
+## Screenshots
+
+<img width="944" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/8f35d201-83e1-49f9-bea4-a1498a5e7a33">
+
+<img width="960" alt="image" src="https://github.com/ritik2358/Kanban-board/assets/98156555/0117ce68-ffec-43ca-a170-67e7fd87eaa3">
+
 
 ## Technologies Used
 
