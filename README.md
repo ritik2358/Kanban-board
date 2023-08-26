@@ -35,11 +35,51 @@ This is a Kanban board-inspired task management application that allows users to
 
 ## Installation and Usage
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies using the package manager of your choice.
-3. Set up the database connection in the `config.js` file.
-4. Run the application using the command `npm start` or `node app.js`.
-5. Access the application by navigating to `http://localhost:3000` in your web browser.
+1. Clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/ritik2358/Kanban-board.git
+   ```
+2. Navigate to the `Backend` directory:
+   ```
+   cd Backend
+   ```
+
+3. Install the required dependencies by running the following command:
+   ```
+   npm install
+   ```
+4. Set up the environment variables in a .env file like this :
+   ```
+   MONGODB_URI = <Your Mongodb connection uri>
+   ```
+   Add this file in the root of Backend directory
+
+5. Start the Backend Server by running the following command:
+   ```
+   npm run dev
+   ```
+
+6. Navigate to the `Frontend` directory:
+   ```
+   cd Frontend
+   ```
+
+7. Install the required dependencies by running the following command:
+   ```
+   npm install
+   ```
+8. Set up the environment variables in a .env file like this:
+   ```
+   REACT_APP_BACKEND_URL=<Your local or deployed backend url>
+   ```
+    Add this file in the root of Frontend directory 
+   
+9. Finally, start the Frontend of the Application:
+   ```
+   npm start
+   ```
+
+10. Open your browser and visit `http://localhost:3000` to access the captivating world of TravelDiary.
 
 
 ## Live Demo
