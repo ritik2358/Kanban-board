@@ -180,7 +180,7 @@ function Task() {
                     <span>{title.slice(0, 25)}{title.length > 25 && '...'}</span>
                     <ProjectDropdown id={projectId} navigate={navigate} />
                 </h1>
-                <BtnPrimary onClick={() => setAddTaskModal(true)}>Add todo</BtnPrimary>
+                <BtnPrimary onClick={() => setAddTaskModal(true)}>Add Task</BtnPrimary>
             </div>
             <DragDropContext
                 onDragEnd={result => onDragEnd(result, columns, setColumns)}
