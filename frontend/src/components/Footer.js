@@ -18,7 +18,7 @@ export const Footer = () => {
                             </svg>
                         </a>
                         <a
-                            href="https://github.com/ritik2358"
+                            href="https://github.com/ritik2358/Kanban-board"
                             className="text-white transition-colors duration-300 hover:text-teal-accent-400"
                         >
                             <svg viewBox="0 0 16 16" fill="currentColor" className="h-6">
